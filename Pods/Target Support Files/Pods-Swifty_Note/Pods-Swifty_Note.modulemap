@@ -1,0 +1,6 @@
+framework module Pods_Swifty_Note {
+  umbrella header "Pods-Swifty_Note-umbrella.h"
+
+  export *
+  module * { export * }
+}
