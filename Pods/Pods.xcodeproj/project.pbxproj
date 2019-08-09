@@ -170,7 +170,6 @@
 		C92B6820F42946B2FB6E67227885CC5B /* RLMSchema.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E1E212112184CB45F549138969B183D2 /* RLMSchema.h */; };
 		CD18A9DEF461EAA31B34C38C59B2368E /* RLMArray_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F69262435BA3658A2632029439C3D9D7 /* RLMArray_Private.h */; };
 		CD418E8BC902E015DF126F9F3E297541 /* RLMObjectSchema_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = FCC163B27BB4BDBA1ECFA78811A4366E /* RLMObjectSchema_Private.h */; };
-		CEF312CB22F4D676004DE8EA /* imageSaverClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF312CA22F4D676004DE8EA /* imageSaverClass.swift */; };
 		CF9C9C5704BD9D2A07EF792D5FA3693D /* RLMRealmConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C537AB5AC2AE1A86FB135F60C8DFBE32 /* RLMRealmConfiguration.h */; };
 		CFCD00F2F6908EFDFDD49AD674886B26 /* keychain_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51C3B8D7C2F16DE430604DA5567467B6 /* keychain_helper.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.17.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		D146A8AF2802B47AC92BE72917E6ED0F /* RLMCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 334FD8ACE896EF100955CAD792D24D87 /* RLMCollection.h */; };
@@ -486,7 +485,6 @@
 		CC77274A81EFA719A32E079FF2BF21FD /* RLMQueryUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = RLMQueryUtil.mm; path = Realm/RLMQueryUtil.mm; sourceTree = "<group>"; };
 		CCE857EFE8974359DABB6CB8FAD8E79C /* RLMPredicateUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = RLMPredicateUtil.mm; path = Realm/RLMPredicateUtil.mm; sourceTree = "<group>"; };
 		CDB24EAC9704B3975F3079A0216B60BF /* RLMSyncSessionRefreshHandle.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = RLMSyncSessionRefreshHandle.mm; path = Realm/RLMSyncSessionRefreshHandle.mm; sourceTree = "<group>"; };
-		CEF312CA22F4D676004DE8EA /* imageSaverClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = imageSaverClass.swift; path = ../Swifty_Note/imageSaverClass.swift; sourceTree = "<group>"; };
 		D283B7DF7C9A71F753C87063B8C3FF7A /* RLMObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject.h; path = include/RLMObject.h; sourceTree = "<group>"; };
 		D34FD010B4B6C4ECCB6F0BC1D97F2084 /* RLMObject_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject_Private.h; path = include/RLMObject_Private.h; sourceTree = "<group>"; };
 		D42C3F1A2A593B64DF6FB53F9FC5E259 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = RealmSwift/Error.swift; sourceTree = "<group>"; };
@@ -837,7 +835,6 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				CEF312CA22F4D676004DE8EA /* imageSaverClass.swift */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				CE977EB726C9F96C37B42D71E9B97392 /* Frameworks */,
 				DD17AB0002244697A177A638CDCD9037 /* Pods */,
@@ -1186,7 +1183,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF312CB22F4D676004DE8EA /* imageSaverClass.swift in Sources */,
 				7971ACF89B19E42941B891ED04B29746 /* Pods-Swifty_Note-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

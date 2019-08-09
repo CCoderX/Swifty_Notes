@@ -10,7 +10,7 @@ import Realm
 import  RealmSwift
 import Foundation
 
-class note : Object
+class Note : Object
 {
     @objc internal dynamic var noteImage : String? , noteDescription : String? , noteTitle : String?
     

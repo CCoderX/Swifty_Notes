@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Notes View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swifty_Note" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="NotesViewController" customModule="Swifty_Note" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,7 +31,6 @@
                                     <navigationItem title="Swifty Note" id="brf-cu-oBh">
                                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="kOM-U7-e2R">
                                             <connections>
-                                                <action selector="addNote:" destination="BYZ-38-t0r" id="xjT-vi-gQ8"/>
                                                 <segue destination="UEw-OG-dtK" kind="show" identifier="addNoteSegue" id="nQq-ks-SXA"/>
                                             </connections>
                                         </barButtonItem>
@@ -52,7 +51,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="notesTable" destination="BXH-mF-2WS" id="pJm-TN-aym"/>
+                        <outlet property="notesTableView" destination="BXH-mF-2WS" id="pJm-TN-aym"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

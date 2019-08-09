@@ -6,7 +6,7 @@
 //
 import UIKit
 import Foundation
-class imageSaver{
+class ImageSaver{
     //static let shared = ImageController()
     
     static let fileManager = FileManager.default
@@ -16,7 +16,7 @@ class imageSaver{
         let date = String( Date.timeIntervalSinceReferenceDate )
         let imageName = date.replacingOccurrences(of: ".", with: "-") + ".png"
         
-        if let imageData = image.pngData() {
+        if let imageData = image.pngData(){
             do {
                 let filePath = documentsPath.appendingPathComponent(imageName)
                 
@@ -50,7 +50,6 @@ class imageSaver{
             
             return nil
         }
-        
         if let imageData = UIImage(contentsOfFile: imagePath) {
             return imageData
         } else {
